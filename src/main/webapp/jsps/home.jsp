@@ -4,13 +4,13 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>MithunTechnologies- Home Page</title>
-<link href="images/mithunlogo.jpg" rel="icon">
+<title>TechPragna E-Learning pvt Ltd- Home Page</title>
+<link href="images/orginal_logo.jpg" rel="icon">
 </head>
 </head>
 <body>
-<h1 align="center">Welcome to Mithun Software Solutions.</h1>
-<h1 align="center"> Mithun Software Solutions- Very Good Training center for DevOps with AWS in Maratha Halli Bangalore India and also for Job Assitance Job Support also...Teaching Real Time scnerios</h1>
+<h1 align="center">Welcome to TechPragna E-Learning pvt Ltd .</h1>
+<h1 align="center"> TechPragna E-Learning pvt Ltd- Very Good Training center for DevOps with AWS in Maratha Halli Bangalore India and also for Job Assitance Job Support also...Teaching Real Time scnerios</h1>
 <hr>
 <br>
 	<h1><h3> Server Side IP Address </h3><br>
@@ -27,24 +27,24 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 <hr>
 <div style="text-align: center;">
 	<span>
-		<img src="images/mithunlogo.jpg" alt="" width="100">
+		<img src="images/orginal_logo.jpg" alt="" width="100">
 	</span>
 	<span style="font-weight: bold;">
-		Mithun Technologies, 
-		Martha Halli, Above ICICI Bank, Beside Meghana Foods,
+		TechPragna E-Learning pvt Ltd, 
+		Jayanagar ,4th block,opp airtel show room
 		Bangalore,
-		+91-9980923226
-		devopstrainingblr@gmail.com
+		+91-8811083210
+		prasenjit@techpragna.com
 		<br>
-		<a href="mailto:devopstrainingblr@gmail.com">Mail to Mithun Technologies</a>
+		<a href="mailto:prasenjit6885@gmail.com">Mail to TechPragna E-Learning pvt Ltd</a>
 	</span>
 </div>
 <hr>
 	<p> Service : <a href="services/employee/getEmployeeDetails">Get Employee Details </p>
 <hr>
 <hr>
-<p align=center>Mithun Technologies - Consultant, Training, Development Center.</p>
-<p align=center><small>Copyrights 2019 by <a href="http://mithuntechnologies.com/">Mithun Technologies</a> </small></p>
+<p align=center>TechPragna E-Learning pvt Ltd - Consultant, Training, Development Center.</p>
+<p align=center><small>Copyrights 2019 by <a href="http://techpragna.com/">TechPragna E-Learning pvt Ltd</a> </small></p>
 
 </body>
 </html>
