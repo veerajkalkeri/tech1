@@ -8,7 +8,7 @@
 <link href="images/orginal_logo.jpg" rel="icon">
 </head>
 </head>
-<body bgcolour ="yellow"> 
+<body bgcolor ="yellow"> 
 <h1 align="center">Welcome to TechPragna E-Learning pvt Ltd .</h1>
 <h1 align="center"> TechPragna E-Learning pvt Ltd- Very Good Training center for DevOps with AWS in Maratha Halli Bangalore India and also for Job Assitance Job Support also...Teaching Real Time scnerios</h1>
 <hr>
