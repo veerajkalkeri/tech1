@@ -1,13 +1,13 @@
 node
 {
 def mavenHome  =tool name:"maven 3.8.6"
-stage (‘git hub pulling’)
+stage ('git hub pulling')
 {
 git 'https://github.com/mirujit/tech1.git'
 }
 stage ('build')
 {
-sh  “${mavenHome}/bin/mvn clean package”
+sh  "${mavenHome}/bin/mvn clean package"
 }
 stage ('tomcat')
 {
