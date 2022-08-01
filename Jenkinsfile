@@ -21,12 +21,12 @@ steps
 sh "mvn clean package"
 }
 }
-stage('nexus')
+stage ('nexus')
 {
 sh "mvn clean deploy"
 }
 }
-stage('DeployAppintoTomcatServer')
+stage ('DeployAppintoTomcatServer')
 {
 steps
 {
