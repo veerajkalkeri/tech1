@@ -27,5 +27,16 @@ stage ('build')
        sh "mvn clean deploy"
       }
   }
+  stage('DeployAppintoTomcatServer')
+	{
+	steps{
+    sshagent(['b671eb62-d3c0-458c-95ee-b8ceec993a42'])
+  {
+ sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@44.204.186.170:/opt/apache-tomcat-9.0.65/webapps"     
+	}
+	}
+	}
+}
+
 }
 }
