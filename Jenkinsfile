@@ -27,7 +27,7 @@ stage ('build')
        sh "mvn clean deploy"
       }
   }
-  stage('DeployAppintoTomcatServer')
+  stage('DeployToTomcat')
 	{
 	steps{
     sshagent(['b671eb62-d3c0-458c-95ee-b8ceec993a42'])
