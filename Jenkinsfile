@@ -11,9 +11,9 @@ sh  "${mavenHome}/bin/mvn clean package"
 }
 stage ('tomcat')
 {
-sshagent(['a45fb5d2-01fe-47d1-b512-dfb8320f3276']) 
+sshagent(['6025ce52-db9d-43c9-9641-ef33df140949']) 
 {
-sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@54.191.70.243:/opt/apache-tomcat-9.0.64/webapps"
+sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@http://44.204.186.170/:/opt/apache-tomcat-9.0.64/webapps"
 }
 }
 }
