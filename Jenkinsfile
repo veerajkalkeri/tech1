@@ -20,5 +20,12 @@ stage ('build')
        sh "mvn clean package"
       }
   }
+  stage ('nexus')
+  {
+  steps
+      {
+       sh "mvn clean deploy"
+      }
+  }
 }
 }
