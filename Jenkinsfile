@@ -11,7 +11,7 @@ stage ('pulling from git')
 {
 steps
 {
-git https://github.com/mirujit/tech1.git
+git "https://github.com/mirujit/tech1.git"
 }
 }
 stage ('build')
