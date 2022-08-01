@@ -15,8 +15,3 @@ stages{
   }
 }
 }
-stage('UploadArtifactsIntoNexus'){
-  steps{
-  sh  "mvn clean deploy"
-  }
-  }
