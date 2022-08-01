@@ -23,3 +23,4 @@ stage('UploadArtifactsIntoNexus'){
   sh  "mvn clean deploy"
   }
   }
+}
