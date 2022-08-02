@@ -1,5 +1,5 @@
-node ('slave1')
-{
+pipeline{
+agent {label 'slave1'}
 tools
 {
 maven "maven 3.8.6"
