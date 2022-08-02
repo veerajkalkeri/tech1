@@ -1,6 +1,6 @@
 pipeline
 {
-agent any
+agent slave
 tools{
 maven "maven 3.8.6"
 }
