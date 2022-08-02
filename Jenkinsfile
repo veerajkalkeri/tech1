@@ -1,6 +1,6 @@
 pipeline
 {
-node ('slave1')
+agent any
 tools{
 maven "maven 3.8.6"
 }
