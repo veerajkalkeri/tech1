@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://54.175.218.146:9000/</sonar.host.url>
+		<sonar.host.url>http://52.90.71.177:9000/</sonar.host.url>
 		<!-- <sonar.login>bd0f83a083c7cb4bb1e43ec4771c9a51096e05eb</sonar.login> -->
 		<sonar.login>admin</sonar.login>
 		<sonar.password>admin</sonar.password>
@@ -99,13 +99,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>techpragna</name>
-	      <url>http://35.175.239.80:8082/nexus/repository/releasemanu/</url>
+	      <url>http://52.205.8.71:8082/nexus/repository/releasemanu/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>techpragna </name>
-	      <url>http://35.175.239.80:8082/nexus/repository/snapmanu/</url>
+	      <url>http://52.205.8.71:8082/nexus/repository/snapmanu/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
