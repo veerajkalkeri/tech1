@@ -99,13 +99,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>techpragna</name>
-	      <url>http://13.233.153.144:8081/nexus/repository/real/</url>
+	      <url>http://52.66.195.14:8080/nexus/repository/real/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>techpragna </name>
-	      <url>http://13.233.153.144:8081/nexus/repository/snap/</url>
+	      <url>http://52.66.195.14:8080/nexus/repository/snap/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
